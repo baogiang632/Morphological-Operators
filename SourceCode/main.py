@@ -259,7 +259,7 @@ def main(argv):
     cv2.waitKey()
 
 ### Command Line: 
-'''  
+'''//Đại học//Năm 3//HK2//UDXLA//Lab 01//
 python main.py -i D://input//lenna.jpg -o D://output//dilate.jpg -p dilate -t 0
 python main.py -i D://input//lenna.jpg -o D://output//erode.jpg -p erode -t 0
 python main.py -i D://input//lenna.jpg -o D://output//opening.jpg -p opening -t 0

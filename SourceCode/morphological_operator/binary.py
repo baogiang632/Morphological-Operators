@@ -51,8 +51,6 @@ def subtracting(img1, img2):
 
 # Toán tử dilation
 def dilate(img, kernel):
-    kernel_center = (kernel.shape[0] // 2, kernel.shape[1] // 2)
-    kernel_ones_count = kernel.sum()
     dilate = np.zeros((img.shape[0] + kernel.shape[0] - 1, img.shape[1] + kernel.shape[1] - 1))
     img_shape = img.shape
 
